@@ -1,18 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import { getStoryIds } from './services/hnApi'
+import { StoriesContainer } from './containers/StoriesContainers'
 
-export const App = () =>  {
-    const [storyIds, setStoryIds] = useState([]);
+export const App = () =>  <StoriesContainer />
+    
 
-    useEffect(() => {
-        {
-            console.log(getStoryIds())
-        }
-    }, [
-        
-    ])
-
-    return <p>{storyIds}</p>
-}
 
 
