@@ -5,7 +5,7 @@ import {
   GlobalStyle,
   StoriesContainerWrapper,
 } from '../styles/StoriesContainerStyles';
-import { useInfiniteScroll } from '../hooks/usingInfiniteScrooll';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 
 export const StoriesContainer = () => {
   const { count } = useInfiniteScroll();
