@@ -13,8 +13,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     line-height: 1;
-    color: #202020;
-    background-color: #fafafe;
+    color:  #2B3252;
+    background-color: #EF5455;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
